@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masukkan jumlah barang!</title>
+</head>
+<body>
+    <script>
+    var barang = prompt("Nama barang - 2 kata pertama produk :");
+    var jml = prompt("Masukkan Jumlah Pesanan :  ");
+    var purewarerak = jml*68000
+    var raksepatu = jml*73500
+    var rakserbaguna = jml*73500
+    var purewarebangku = jml*27500
+    var raksusun = jml*132000
+    var rakbuku = jml*55000
+  
+
+    
+    if(barang == "pureware rak") {
+        if(jml >= 15){
+        document.write(`Produk yang anda pesan adalah  : <b>PUREWARE RAK SERBAGUNA E3</b><br>`);
+        document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+        document.write(`Total harga : Rp <b>${purewarerak}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+            document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+            document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+            document.write("<p> Ingin kembali berbelanja?  <p>");
+            document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+        }
+        else  {
+            alert('Minimal pembelian tidak sesuai yaitu 15 item');
+            document.location.href = "furniture.html";
+
+    }
+}
+
+   else if(barang == "rak sepatu") {
+        if(jml >= 15){
+        document.write(`Produk yang anda pesan adalah  : <b>RAK SEPATU SUSUN 3 D9</b><br>`);
+        document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+        document.write(`Total harga : Rp <b>${raksepatu}</b>`);
+        document.write("<p> Terima Kasih telah memesan produk kami <p>");
+            document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+            document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+            document.write("<p> Ingin kembali berbelanja?  <p>");
+            document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+
+        }
+        else  {
+            alert('Minimal pembelian tidak sesuai yaitu 15 item');
+            document.location.href = "furniture.html";
+
+    }
+}
+
+    else if(barang == "rak serbaguna") {
+            if(jml >= 15){
+            document.write(`Produk yang anda pesan adalah  : <b>RAK SERBAGUNA D4 - 3 LONGSTAR</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${rakserbaguna}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 15 item');
+                document.location.href = "furniture.html";
+
+        }
+    }
+
+    else if(barang == "pureware bangku") {
+            if(jml >= 15){
+            document.write(`Produk yang anda pesan adalah  : <b>Pureware Bangku Bulat (A9) longstar</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${purewarebangku}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 15 item');
+                document.location.href = "furniture.html";
+
+        }
+    }
+
+    else if(barang == "rak susun") {
+            if(jml >= 15){
+            document.write(`Produk yang anda pesan adalah  : <b>Rak Susun 5 Tingkat (Pureware)</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${raksusun}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 15 item');
+                document.location.href = "furniture.html";
+
+        }
+    }
+
+    else if(barang == "rak buku") {
+            if(jml >= 15){
+            document.write(`Produk yang anda pesan adalah  : <b>Rak Buku 4 Tingkat (Pureware)</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${rakbuku}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'furniture.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 15 item');
+                document.location.href = "furniture.html";
+
+        }
+    }
+
+
+    else  {
+                alert('Salah input kata kunci silahkan coba lagi');
+                document.location.href = "furniture.html";
+
+        }
+            
+
+
+
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Masukkan jumlah barang!</title>
+</head>
+<body>
+    <script>
+    var barang = prompt("Nama barang - 2 kata pertama produk :");
+    var jml = prompt("Masukkan Jumlah Pesanan :  ");
+    var gantunganbaju = jml*7500
+    var gantunganbesi = jml*15000
+    var hangerkamar = jml*12000
+    var hangertempel = jml*5000
+    var stickyplastik = jml*5000
+    var keranjangwarna = jml*18000
+  
+
+    
+    if(barang == "gantungan baju") {
+        if(jml >= 25){
+        document.write(`Produk yang anda pesan adalah  : <b>Gantungan Baju Multifungsi</b><br>`);
+        document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+        document.write(`Total harga : Rp <b>${gantunganbaju}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+            document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+            document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+            document.write("<p> Ingin kembali berbelanja?  <p>");
+            document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+        }
+        else  {
+            alert('Minimal pembelian tidak sesuai yaitu 25 item');
+            document.location.href = "organizerrumah.html";
+
+    }
+}
+
+   else if(barang == "gantungan besi") {
+        if(jml >= 25){
+        document.write(`Produk yang anda pesan adalah  : <b>Gantungan Besi Baju</b><br>`);
+        document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+        document.write(`Total harga : Rp <b>${gantunganbesi}</b>`);
+        document.write("<p> Terima Kasih telah memesan produk kami <p>");
+            document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+            document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+            document.write("<p> Ingin kembali berbelanja?  <p>");
+            document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+
+        }
+        else  {
+            alert('Minimal pembelian tidak sesuai yaitu 25 item');
+            document.location.href = "organizerrumah.html";
+
+    }
+}
+
+    else if(barang == "hanger kamar") {
+            if(jml >= 25){
+            document.write(`Produk yang anda pesan adalah  : <b>Hanger Kamar  Mandi Tempel A3</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${hangerkamar}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 25 item');
+                document.location.href = "organizerrumah.html";
+
+        }
+    }
+
+    else if(barang == "hanger tempel") {
+            if(jml >= 25){
+            document.write(`Produk yang anda pesan adalah  : <b>Hanger Tempel Plastik Karakter</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${hangertempel}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 25 item');
+                document.location.href = "organizerrumah.html";
+
+        }
+    }
+
+    else if(barang == "sticky plastik") {
+            if(jml >= 25){
+            document.write(`Produk yang anda pesan adalah  : <b>Sticky Plastik Tempel</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${stickyplastik}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 25 item');
+                document.location.href = "organizerrumah.html";
+
+        }
+    }
+
+    else if(barang == "keranjang warna") {
+            if(jml >= 25){
+            document.write(`Produk yang anda pesan adalah  : <b>Keranjang Warna Kotak</b><br>`);
+            document.write(`Jumlah pesanan anda : <b>${jml}</b><br>`);
+            document.write(`Total harga : Rp <b>${keranjangwarna}</b>`);
+            document.write("<p> Terima Kasih telah memesan produk kami <p>");
+                document.write("<p> Untuk melanjutkan tranksasi silahkan ss halaman ini dan kirim wa di link di bawah ini <p>");
+                document.write("<a href= 'http://wa.me/6281882825328'>Link WA</a>");
+
+                document.write("<p> Ingin kembali berbelanja?  <p>");
+                document.write("<a href= 'organizerrumah.html'>Kembali ke halaman produk</a>");
+
+            }
+            else  {
+                alert('Minimal pembelian tidak sesuai yaitu 25 item');
+                document.location.href = "organizerrumah.html";
+
+        }
+    }
+
+
+    else  {
+                alert('Salah input kata kunci silahkan coba lagi');
+                document.location.href = "organizerrumah.html";
+
+        }
+            
+
+
+
+    
+    </script>
+</body>
+</html>
