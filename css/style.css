@@ -1,0 +1,173 @@
+*,
+    html{
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* coding untuk memberikan background dari website*/
+    body{
+            background-image: url(https://img.freepik.com/free-photo/abstract-dark-blurred-background-smooth-gradient-texture-color-shiny-bright-website-pattern-banner-header-sidebar-graphic-art-image_1258-82961.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* coding untuk membuat tulisan Judul website berada di tengah dengan warna hitam 
+        dan jenis tulisan yang ditentukan*/
+    .judul {
+            text-align: center;
+                color:black;
+                font-family: 'Times New Roman', Times, serif;
+    
+            }
+    /* coding untuk membuat logo toko berada ditengah dengan ukuran yang sudah ditentukan
+    serta membuat logo toko tersebut menjadi berbentuk oval*/
+    .profil{
+                border-radius: 100%;
+                width: 200px;;
+                height: 100px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            /* coding untuk saat kursor bergerak ke tulisan pada bagian tulisan navbar akan muncul hover*/
+            .nav-item :hover {
+                background-color: bisque;
+                border-radius: 5px;
+            }
+            .nav-link{color:white;}
+            .dropdown-item{
+                background-color: white;
+            }
+              .dropdown-item:hover, .dropdown-item:focus {
+                
+                background-color: aqua;
+              }
+              .dropdown-menu:hover{
+                background-color: white;
+              
+              }
+        
+            
+            .ul-navbar{
+                display: flex;
+                height: 60px;
+               align-items: center;
+            }
+            .li-navbar{
+                border: 1px solid white;
+                background-color: black;
+                list-style-type: none;
+                border-radius: 5px;
+                padding: 10px;
+                margin: 5px;
+            }
+            .li-navbar :hover {
+                background-color: white;
+                border-radius: 5px;
+            }
+            .ilustrasi{
+                border-radius: 50px;
+            }
+            .btn {
+                display: inline-block;
+                background: #ff523b;
+                color: #fff;
+                padding: 8px 30px;
+                margin: 30px 0;
+                border-radius: 5px;
+                transition: background 0.5s;
+              }
+    
+              .btn:hover {
+                background-color: #563434; 
+                color: #fff;
+              }
+
+              .carousel-inner{
+                height: 600px;
+              }
+              .why_section .box {
+                text-align: center;
+                margin-top: 45px;
+                background-color: #002c3e;
+                padding: 45px 50px;
+                border-radius: 5px;
+                color: #ffffff;
+            }
+            .why_section .box .img-box {
+              margin-bottom: 15px;
+            }
+      
+            .why_section .box .img-box svg {
+              width: 55px;
+              height: auto;
+              fill: #ffffff;
+            }
+            .heading_container {
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              -webkit-box-align: start;
+                  -ms-flex-align: start;
+                      align-items: flex-start;
+            }
+            .heading_container h2 {
+              position: relative;
+              margin-bottom: 0;
+              font-size: 3.5rem;
+              font-weight: bold;
+          }
+      
+          .heading_container h2::after {
+              content: "";
+              display: block;
+              width: 70px;
+              height: 5px;
+              background: #f7444e;
+              margin: 10px auto 10px;
+          }
+      
+          .heading_container h2 span {
+            color: #f7444e;
+          }
+      
+          .heading_container p {
+            margin-top: 10px;
+            margin-bottom: 0;
+          }
+      
+          .heading_container.heading_center {
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            text-align: center;
+          }
+          .card-title{
+            font-family: "Lucida Console", "Courier New", monospace;
+          }
+        .footer{
+            background-color: black;
+            padding: 32px;
+            color: white;
+            margin:0;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+
+        }
+        .faq__content {
+          background-color: transparent;
+          padding: 0 10px;
+          border-radius: 5px;
+          color: rgb(229, 10, 10);
+        }
+        .containerfaq {
+          padding-left: 30px;
+        }
+
+      
+  
